@@ -86,5 +86,5 @@ def add_cwd_segment(powerline):
             separator = None
             separator_fg = None
 
-        powerline.append(' %s ' % maybe_shorten_name(powerline, name), fg, bg,
+        powerline.append('%s' % maybe_shorten_name(powerline, name), fg, bg,
                          separator, separator_fg)
